@@ -26,11 +26,6 @@ body{
   background-color: #F1F1F1;
 }
 
-.Bell{
-  height: 90px;
-  width: 250px;
-}
-
 .yeah {
   display: flex;
   height: 50px;
@@ -88,4 +83,49 @@ nav li{
   font-size: large;
 }
 
+.button1 {
+  font-size: 1.2rem;
+  width: 90px;
+  border-radius: 0.1px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+}
 
+.button2 {
+  font-size: 1.2rem;
+  width: 95px;
+  border-radius: 1px ;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: #474747;
+  color: white;
+  border-color: #474747;
+}
+.button-container1{
+  margin-left: 20px;
+  margin-top : 35px;
+
+}
+
+.button-container2{
+  margin-left: 10px;
+  margin-top : 35px;
+
+}
+
+.button1:hover{
+  color: white;
+  background-color: black;
+}
+
+.button2:hover{
+  color: white;
+  background-color: black;
+}
