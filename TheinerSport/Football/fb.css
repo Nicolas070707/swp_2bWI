@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  background-color: #fefdff;
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23000000' fill-opacity='1'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.Top {
+  width: 100%;
+  height: 6.5rem;
+  background-color: white;
+  padding: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.down {
+  background-color: #231E1E;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.yeah {
+  display: flex;
+}
+
+.yeah a {
+  padding-left: 80px;
+  display: flex;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
+  transition: all 0.8s;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+.main {
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0%;
+  height: 50px;
+  width: 100%;
+  background-color: #231E1E;
+  bottom: 0;
+  color: white;
+
+}
+
+.insta {
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.wrapper-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.banner-img {
+  height: 75%;
+  width: 100%;
+}
+
+.container {
+  border-style: solid;
+  border-radius: 25px;
+  overflow: hidden;
+  width: 400px;
+  height: 600px;
+  background-color: bisque;
+}
+
+#product-image {
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  border-style: solid;
+}
+
+.name {
+  font-weight: 800;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12%;
+}
+
+.Price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  color: #373535;
+}
+
+@media only screen and (max-width: 1400px) {
+  h1 {
+    font-size: 7rem;
+  }
+
+  .wrapper-flex{
+    margin-left: 25vh;
+    margin-right: 25vh;
+  }
+
+  .container {
+    width: 260px;
+    height: 460px;
+    background-color: bisque;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  .yeah a {
+    font-size: 1.2rem;
+  }
+
+  .insta {
+    width: 25px;
+    height: 25px;
+  }
+
+  h3 {
+    font-size: medium;
+  }
+
+  .wrapper-flex {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 18rem;
+    height: 27rem;
+  }
+
+  .name{
+    font-size: 1.4rem;
+  }
+
+  .Price{
+    font-size: 0.8rem;
+  }
+}

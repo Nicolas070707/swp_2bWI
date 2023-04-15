@@ -8,4 +8,4 @@ function changeImage() {
   image.alt = "Bild " + imageIndex;
 }
 
-setInterval(changeImage, 10000);
+setInterval(changeImage, 8000);
