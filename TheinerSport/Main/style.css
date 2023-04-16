@@ -27,11 +27,11 @@ body {
   height: 60px;
 }
 
-.yeah {
+.bar {
   display: flex;
 }
 
-.yeah a {
+.bar a {
   padding-left: 80px;
   display: flex;
   text-decoration: none;
@@ -90,8 +90,8 @@ h1 {
   position: relative;
   border-style: solid;
   border-radius: 20px;
-  height: 420px;
-  width: 700px;
+  height: 820px;
+  width: 1300px;
   overflow: hidden;
 }
 
@@ -117,23 +117,23 @@ img {
   width: 100%;
 }
 
-.insta {
+.sozial {
   padding: 5px;
   width: 40px;
   height: 40px;
 }
 
-@media only screen and (min-width: 1700px) {
+@media only screen and (max-width: 1600px) {
   .wrapper-flex {
-    height: 520px;
-    width: 1000px;
+    height: 420px;
+    width: 700px
   }
 
   h1 {
     font-size: 7rem;
   }
 
-  .insta {
+  .sozial {
     width: 30px;
     height: 30px;
   }
@@ -156,12 +156,12 @@ img {
     font-size: 3rem;
   }
 
-  .yeah a {
+  .bar a {
     padding-left: 20px;
     font-size: 0.8rem;
   }
 
-  .insta {
+  .sozial{
     width: 20px;
     height: 20px;
   }

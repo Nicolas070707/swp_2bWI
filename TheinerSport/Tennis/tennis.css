@@ -26,11 +26,11 @@ body {
   align-items: center;
 }
 
-.yeah {
+.bar {
   display: flex;
 }
 
-.yeah a {
+.bar a {
   padding-left: 80px;
   display: flex;
   text-decoration: none;
@@ -54,12 +54,14 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: absolute;
+  position: fixed;
+  bottom: 0%;
   height: 50px;
   width: 100%;
   background-color: #231E1E;
   bottom: 0;
   color: white;
+
 }
 
 .insta {
@@ -68,27 +70,113 @@ h1 {
   height: 40px;
 }
 
-@media only screen and (min-width: 1700px) {
+.wrapper-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.banner-img {
+  height: 75%;
+  width: 100%;
+}
+
+.container {
+  border-style: solid;
+  border-radius: 25px;
+  overflow: hidden;
+  width: 400px;
+  height: 600px;
+  background-color: bisque;
+}
+
+#product-image {
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  border-style: solid;
+}
+
+.name {
+  font-weight: 800;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12%;
+}
+
+.Price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  color: #373535;
+}
+
+@media only screen and (max-width: 1600px) {
   h1 {
     font-size: 7rem;
+  }
+
+  .wrapper-flex{
+    margin-left: 25vh;
+    margin-right: 25vh;
+  }
+
+  .container {
+    width: 260px;
+    height: 460px;
+  
   }
 }
 
 @media only screen and (max-width: 768px) {
   h1 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   .yeah a {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .insta {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
   }
 
   h3 {
-    font-size: small;
+    font-size: medium;
+  }
+
+  .wrapper-flex {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 18rem;
+    height: 27rem;
+  }
+
+  .name{
+    font-size: 1.4rem;
+  }
+
+  .Price{
+    font-size: 0.8rem;
   }
 }

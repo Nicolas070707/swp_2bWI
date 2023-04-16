@@ -26,11 +26,11 @@ body {
   align-items: center;
 }
 
-.yeah {
+.bar {
   display: flex;
 }
 
-.yeah a {
+.bar a {
   padding-left: 80px;
   display: flex;
   text-decoration: none;
@@ -124,7 +124,7 @@ h1 {
   color: #373535;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1600px) {
   h1 {
     font-size: 7rem;
   }
@@ -137,7 +137,7 @@ h1 {
   .container {
     width: 260px;
     height: 460px;
-    background-color: bisque;
+  
   }
 }
 

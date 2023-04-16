@@ -1,5 +1,5 @@
 var imageIndex = 1;
-var totalImages = 3;
+var totalImages = 5;
 
 function changeImage() {
   var image = document.getElementById("image");
@@ -8,4 +8,4 @@ function changeImage() {
   image.alt = "Bild " + imageIndex;
 }
 
-setInterval(changeImage, 8000);
+setInterval(changeImage, 6000);
